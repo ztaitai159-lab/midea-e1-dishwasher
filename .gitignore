@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Output / local files (per-device, not committed)
+lua_out/
+results_*/
+
+# Never commit credentials
+*.key
+*.secret
+credentials*
